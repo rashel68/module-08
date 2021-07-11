@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+    <style>
+        .section1{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 100px;
+        }
+        .flexbox{
+            width: 150px;
+            height: 150px;
+            margin: 10px;
+            font-size: 1.5em;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: tomato;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .section2{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: start;
+            margin-bottom: 100px;
+        }
+        #flex2{
+            background-color: dodgerblue;
+        }
+        .section3{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+            margin-bottom: 100px;
+        }
+        #flex3{
+            background-color: green;
+        }
+        .section4{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-bottom: 100px;
+        }
+        .sec1{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-bottom: 100px;
+        }
+        .sec2{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+        .sec3{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: stretch;
+            height: 500px;
+            border: 2px dotted gray;
+        }
+        .flexbox1{
+            width: 200px;
+            background-image: linear-gradient(to right, rgb(110, 3, 187), tomato);
+            color: white;
+            justify-content: center;
+            align-items: center;
+            margin: 10px;
+        }
+        #flex{
+            flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="section1">
+        <div id="flex2" class="flexbox">FlexBox - 1</div>
+        <div id="flex2" class="flexbox">FlexBox - 2</div>
+        <div id="flex2" class="flexbox">FlexBox - 3</div>
+        <div id="flex2" class="flexbox">FlexBox - 4</div>
+        <div id="flex2" class="flexbox">FlexBox - 5</div>
+        <div id="flex2" class="flexbox">FlexBox - 6</div>
+        <div id="flex2" class="flexbox">FlexBox - 7</div>
+        <div id="flex2" class="flexbox">FlexBox - 8</div>
+        <div id="flex2" class="flexbox">FlexBox - 9</div>
+        <div id="flex2" class="flexbox">FlexBox - 10</div>
+    </div>
+
+    <div class="section2">
+        <div class="flexbox">FlexBox - 1</div>
+        <div class="flexbox">FlexBox - 2</div>
+        <div class="flexbox">FlexBox - 3</div>
+        <div class="flexbox">FlexBox - 4</div>
+        <div class="flexbox">FlexBox - 5</div>
+        <div class="flexbox">FlexBox - 6</div>
+        <div class="flexbox">FlexBox - 7</div>
+        <div class="flexbox">FlexBox - 8</div>
+        <div class="flexbox">FlexBox - 9</div>
+        <div class="flexbox">FlexBox - 10</div>
+    </div>
+
+    <div class="section3">
+        <div id="flex3" class="flexbox">FlexBox - 1</div>
+        <div id="flex3" class="flexbox">FlexBox - 2</div>
+        <div id="flex3" class="flexbox">FlexBox - 3</div>
+        <div id="flex3" class="flexbox">FlexBox - 4</div>
+        <div id="flex3" class="flexbox">FlexBox - 5</div>
+        <div id="flex3" class="flexbox">FlexBox - 6</div>
+        <div id="flex3" class="flexbox">FlexBox - 7</div>
+        <div id="flex3" class="flexbox">FlexBox - 8</div>
+        <div id="flex3" class="flexbox">FlexBox - 9</div>
+        <div id="flex3" class="flexbox">FlexBox - 10</div>
+    </div>
+
+    <div class="section4">
+        <div class="flexbox">Around</div>
+        <div class="flexbox">Around</div>
+        <div class="flexbox">Around</div>
+        <div class="flexbox">Around</div>
+    </div>
+
+    <div class="sec1">
+        <div class="flexbox">Between</div>
+        <div class="flexbox">Between</div>
+        <div class="flexbox">Between</div>
+        <div class="flexbox">Between</div>
+    </div>
+    <div class="sec2">
+        <div class="flexbox">Evenly</div>
+        <div class="flexbox">Evenly</div>
+        <div class="flexbox">Evenly</div>
+        <div class="flexbox">Evenly</div>
+    </div>
+    <div class="sec3">
+        <div class="flexbox1">FlexBox - 1</div>
+        <div id="flex" class="flexbox1">FlexBox - 2</div>
+        
+    </div>
+    <div class="sec4">
+        <div class="flexbox">FlexBox - 1</div>
+        <div class="flexbox">FlexBox - 2</div>
+        <div class="flexbox">FlexBox - 3</div>
+        <div class="flexbox">FlexBox - 4</div>
+    </div>
+    
+</body>
+</html>

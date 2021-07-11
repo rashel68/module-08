@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <script src="https://kit.fontawesome.com/9bed63f8c8.js" crossorigin="anonymous"></script>
+    <style>
+        body{
+            margin: 0;
+        }
+        .menu{
+            display: flex;
+            justify-content: space-between;
+            padding: 15px;
+            background-image: linear-gradient(#dfdfdf, rgba(196, 195, 195, 0.856), #dfdfdf);
+        }
+        
+        .menu span a i{
+            background-color: dodgerblue;
+            color: white;            
+            border-radius: 18px;
+            width: 36px;
+            height: 36px;
+            text-align: center;
+            line-height: 36px;
+        }
+        .menu a{
+            text-decoration: none;
+            margin-right: 15px;
+            font-size: 1.2em;
+            color: dodgerblue;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .contact{
+            display: flex;
+            height: 500px;
+            justify-content: center;
+            align-items: center;
+        }
+        .form{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            padding: 20px 35px 50px;
+            box-shadow: -1px 0px 10px #dfdfdf;
+            border-radius: 25px;
+        }
+        .form h2{
+            text-align: center;
+            color: dodgerblue;
+            margin-bottom: 40px;
+        }
+        .form input, button{
+            padding: 4px;
+            border: 1px solid #dfdfdf;
+            border-radius: 5px;
+            outline: none;
+        }
+        .form button{
+            background-color: dodgerblue;
+            color: white;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="menu">
+            <span>
+                <a href="">Home</a>
+                <a href="">Products</a>
+                <a href="">Order</a>
+                <a href="">Contact</a>
+                <a href="">About</a>
+            </span>
+            <span>
+                <a href=""><i class="fas fa-user"></i></a>
+                <a href=""><i class="fas fa-sign-out-alt"></i></a>
+            </span>
+        </nav>
+        <div class="contact">
+        <form action="" class="form">
+            <h2>Login</h2>
+            <input type="text" name="name" placeholder="Enter your name" id=""> <br>
+            <input type="email" name="email" placeholder="Enter your email" id=""> <br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    </header>
+    
+</body>
+</html>
